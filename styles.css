@@ -1,0 +1,62 @@
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+
+
+#startBtn{
+    margin-right: 20px;
+    background: #32CD32;
+    color: white;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#stopBtn{
+    margin-right: 20px;
+    background: #FF0000;
+    color: white;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#startBtn:hover{
+    color: #32CD32;
+    background: white;
+}
+
+#stopBtn:hover{
+    color: #FF0000;
+    background: white;
+}
+
+video{
+    border: 1px solid #000;
+    height: 300px;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+}
+
+.videoSelect{
+    display: flex;
+    justify-content: center;
+    
+}
+#videoSelectBtn{
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+}
